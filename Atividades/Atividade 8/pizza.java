@@ -10,7 +10,7 @@ class Pizza {
         this.preco = preco;
         this.ingredientes = ingredientes;
     }
-
+ 
     public String getNome() {
         return nome;
     }
