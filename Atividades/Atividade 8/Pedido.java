@@ -5,7 +5,7 @@ class Pedido {
     private String tamanho;
     private String enderecoEntrega;
     private double valorTotal;
-
+ 
     public Pedido(Pizza pizza, String tamanho, String enderecoEntrega) {
         this.idPedido = ++contadorPedidos;
         this.pizza = pizza;
