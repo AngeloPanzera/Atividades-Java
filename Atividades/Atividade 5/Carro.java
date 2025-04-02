@@ -16,9 +16,9 @@ public class Carro {
     }
 
     // Método para acelerar
-    public void acelerar(int incremento) {
-        if (incremento > 0) {
-            velocidadeAtual += incremento;
+    public void acelerar(int adicionar) {
+        if (adicionar > 0) {
+            velocidadeAtual += adicionar;
             System.out.println("O carro acelerou para " + velocidadeAtual + " km/h.");
         } else {
             System.out.println("Informe um valor positivo para acelerar.");
