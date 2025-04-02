@@ -12,7 +12,7 @@ public class Main {
         // Criando pedidos
         Pedido pedido1 = new Pedido(menuPizzas.get(0), "grande", "Rua das Flores, 123");
         Pedido pedido2 = new Pedido(menuPizzas.get(2), "média", "Av. Brasil, 456");
-
+ 
         // Exibindo pedidos
         pedido1.exibirPedido();
         System.out.println("----------------------");
